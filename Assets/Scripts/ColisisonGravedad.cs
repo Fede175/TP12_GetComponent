@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ColisisonGravedad : MonoBehaviour
 {
+    CubeScript cubeData;
     void OnCollisionEnter(Collision col)
     {
         Debug.Log("Hubo Colision");
